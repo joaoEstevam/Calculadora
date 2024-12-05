@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#conteiner {
+    position: absolute;
+    align-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    background: rgb(0, 0 ,0, 55);
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+
+}
+h1 {
+    color: white;
+}
+button {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    cursor: pointer;
+    font-size: 25px;
+    border: none;
+    background: rgb(47, 45, 45);
+    color: white;
+    margin: 2px;
+}
+
+button:hover{
+    background: black;
+}
+
+p {
+    border: 1px solid black;
+    width: 99%;
+    height: 30px;
+    background: white;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+}
